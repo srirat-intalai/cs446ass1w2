@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srirat-1660705185 | Server Portal</title> 
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #1B1035;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #F3E9FF;
+        }
+        .card {
+            display: flex;
+            width: 820px;
+            height: 460px;
+            background-color: #3C1A5B;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(171, 131, 161, 0.2);
+        }
+        .card-image {
+            flex: 1.1;
+            background: url('https://contents.bu.ac.th/contents/files/uploads/c5100907-14d2-4415-887f-5e5ac387c59b.webp') center/cover no-repeat;
+            filter: contrast(1.05);
+        }
+        .card-content {
+            flex: 1;
+            padding: 45px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #26113b;
+        }
+        .profile-header h1 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 30px;
+            font-weight: 500;
+            color: #F3E9FF;
+            margin-bottom: 4px;
+            letter-spacing: 0.5px;
+        }
+        .profile-header .subtitle {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            color: #AB83A1;
+            font-size: 15px;
+        }
+        .info-group {
+            margin-top: 35px;
+        }
+        .info-item {
+            margin-bottom: 25px;
+        }
+        .info-label {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #AB83A1;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+        .info-value {
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', serif;
+            color: #F3E9FF;
+            letter-spacing: 0.5px;
+        }
+        .status-bar {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            color: #AB83A1;
+        }
+        .status-dot {
+            width: 7px;
+            height: 7px;            background-color: #6A0572;
+            border-radius: 50%;
+            box-shadow: 0 0 8px #6A0572;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-image"></div>
+        <div class="card-content">
+            <div>
+                <div class="profile-header">
+                    <h1>Srirat Intalai</h1>
+                    <p class="subtitle">Authorized Administrator</p>
+                </div>
+                
+                <div class="info-group">
+                    <div class="info-item">
+                        <div class="info-label">SERVER DESIGNATION</div>
+                        <div class="info-value">Machine-111</div> 
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">STUDENT ID</div>
+                        <div class="info-value">1660705185</div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="status-bar">
+                <span class="status-dot"></span>
+                <span>System Online • Ubuntu 24.04 LTS</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
