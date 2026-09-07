@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <title>Server Identity - Srirat Intalai</title>
     <style>
-        /* ตั้งค่าพื้นหลังหน้าเว็บให้อยู่ตรงกลาง */
+        /* ตั้งค่าพื้นหลังหน้าเว็บเป็นโทนเขียวน้ำทะเลเข้ม */
         body {
-            background-color: #b0b8c4;
-            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0e1e20;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -15,34 +15,33 @@
             margin: 0;
         }
 
-        /* กล่องการ์ดใหญ่ตรงกลาง */
+        /* กล่องการ์ดหลักตรงกลาง */
         .card-box {
             width: 780px;
-            background-color: #383e4a;
+            background-color: #1a3235;
             padding: 45px;
-            border-radius: 24px;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+            border: 1px solid #284c50;
         }
 
-        /* หัวข้อ Server Identity สีทอง */
+        /* หัวข้อ Server Identity สีเขียวน้ำทะเลสว่าง */
         .main-title {
             text-align: center;
-            color: #ebb952;
-            font-family: Georgia, 'Times New Roman', serif;
-            font-size: 42px;
-            font-weight: bold;
+            color: #36d7b7;
+            font-size: 38px;
+            font-weight: 600;
             margin-bottom: 6px;
         }
 
         .sub-title {
             text-align: center;
-            color: #9aa4b2;
-            font-style: italic;
-            font-size: 18px;
+            color: #7ba8a0;
+            font-size: 16px;
             margin-bottom: 40px;
         }
 
-        /* จัดตารางข้อมูล 4 ช่อง (2 แถว 2 คอลัมน์) */
+        /* ตารางแบ่งข้อมูล 4 ช่อง */
         .info-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -50,16 +49,17 @@
             margin-bottom: 35px;
         }
 
-        /* กล่องสี่เหลี่ยมใส่ข้อมูลย่อย */
+        /* กล่องย่อยใส่ข้อมูลแต่ละช่อง */
         .info-card {
-            background-color: rgba(255, 255, 255, 0.05);
+            background-color: #122426;
             padding: 22px 25px;
-            border-radius: 16px;
+            border-radius: 14px;
+            border: 1px solid #1f3c3f;
         }
 
         .info-label {
             font-size: 11px;
-            color: #8993a4;
+            color: #61948c;
             font-weight: bold;
             letter-spacing: 1.5px;
             margin-bottom: 8px;
@@ -67,19 +67,19 @@
 
         .info-value {
             font-size: 20px;
-            color: #ffffff;
-            font-weight: bold;
+            color: #e6f7f5;
+            font-weight: 600;
         }
 
         /* ส่วนแสดง Document Root ด้านล่าง */
         .path-section {
-            border-left: 4px solid #ebb952;
+            border-left: 4px solid #36d7b7;
             padding-left: 18px;
             margin-top: 10px;
         }
 
         .path-label {
-            color: #ebb952;
+            color: #36d7b7;
             font-size: 12px;
             font-weight: bold;
             letter-spacing: 1px;
@@ -87,7 +87,7 @@
         }
 
         .path-text {
-            color: #ebb952;
+            color: #36d7b7;
             font-size: 22px;
             font-weight: bold;
             font-family: 'Courier New', Courier, monospace;
@@ -102,7 +102,7 @@
         <div class="main-title">Server Identity</div>
         <div class="sub-title">Cloud Infrastructure & EBS Management</div>
 
-        <!-- โซนตารางข้อมูล 4 ช่อง -->
+        <!-- กล่องข้อมูล 4 ช่อง -->
         <div class="info-grid">
             <div class="info-card">
                 <div class="info-label">STUDENT NAME</div>
@@ -125,7 +125,7 @@
             </div>
         </div>
 
-        <!-- โซนแสดง Document Root ข้างล่าง -->
+        <!-- โซนแสดง Document Root -->
         <div class="path-section">
             <div class="path-label">📁 DOCUMENT ROOT (CURRENT WEB PATH)</div>
             <div class="path-text">/data1660705185</div>
@@ -135,7 +135,6 @@
 
 </body>
 </html>
-
 <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
